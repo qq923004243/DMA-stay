@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///f:/stay8.19完美修复/media.vcxproj/include/dmalibrary/dmalibrary.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0568ac841b196a915dd6cd3ce8546f657221fa0565b1ab26ffb09468bd50c1a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/stay8.19完美修复/media.vcxproj/include/dmalibrary/pch.h"
+          },
+          "hashes": {
+            "sha-256": "72b36093998fcaa45e4930cc08cf9da2a4facf8a58a2c3484abe00cedb515d30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/stay8.19完美修复/media.vcxproj/include/dmalibrary/libs/vmmdll.h"
+          },
+          "hashes": {
+            "sha-256": "8d831eab50db656d943810f802583a5e5c0f3a4ba45df850c35856beb1004071"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/stay8.19完美修复/media.vcxproj/include/dmalibrary/libs/leechcore.h"
+          },
+          "hashes": {
+            "sha-256": "54dd13b5114e61884917ec3049144c561b3d708351e5a93e409f89f2954b8b6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "sha-256": "e591c6b5171243a513694ef788011e411222393b422c988a23014071afc8c37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/stay8.19完美修复/media.vcxproj/include/dmalibrary/framework.h"
+          },
+          "hashes": {
+            "sha-256": "fbc08209832783724237533898bf670375d32f54103c39c4fe67f29d1f45e8d8"
+          }
+        }
+      ]
+    }
+  ]
+}
